@@ -9,7 +9,59 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.blur {
+  background-image: url('./helpers/img/photo_2023-04-10_16-26-15.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* -webkit-filter: blur(10px);
+  filter: blur(10px); */
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(40, 40, 41, 0.9);
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* button */
+
+.button {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 20px;
+  width: 120px;
+  height: 35px;
+  background-color: transparent;
+  border: 3px solid rgb(23 83 90);
+  border-radius: 50px;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  color: rgb(23 83 90);
+}
+.button:hover {
+  box-shadow: 0 0 10px 0 #fd5103 inset, 0 0 20px 2px #fd5103;
+  border: 3px solid #fd5103;
 }
