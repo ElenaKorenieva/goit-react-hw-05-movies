@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API_KEY = '91c8072381313442ec35041820d8f199';
+const API_KEY = 'ecd9849b82b3a3428e824ce2103543f4';
 
 export const fetchByTrending = async () => {
   const response = await axios.get(
